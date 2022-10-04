@@ -1,0 +1,12 @@
+1) Control Link
+ - monitor all the links
+
+2) Data Link
+- config
+- sessions
+
+--------------------
+- same ocde ver
+- same model
+- updates UTM
+--------------------
