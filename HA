@@ -1,12 +1,22 @@
 1) Control Link
  - monitor all the links
+ - Hellos / Hartbeats ( icmp 1 per sec if - 3 fail)
+ - HA state info
+ - Routing table sync
+ - User-id sync
 
 2) Data Link
 - config
 - sessions
+- forwarding sessions IPes Sa's
+- Shares ARP info
 
 --------------------
 - same ocde ver
 - same model
 - updates UTM
+--------------------
+HSCI - high speed data link
+--------------------
+PA-220, port 
 --------------------
