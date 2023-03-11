@@ -1,0 +1,19 @@
+From the CLI with a Known Admin User Password
+
+
+You can use the CLI operational command: > request system private-data-reset if you know the admin account password. This method:
+
+Erases all logs.
+Resets all settings, including IP addressing, which causes loss of connectivity.
+Saves a default configuration after the MGT IP address is changed.
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+During Bootup with an Unknown Admin User Password
+
+
+If you do not know the admin account password, you must first boot the firewall into maintenance mode. 
+
+As the firewall is booting up, type the operational command maint into the CLI through the serial console port. 
+After some time has elapsed, you can choose Reset to Factory Default to reset the firewall to its factory default settings. 
+You can set the default admin password or load a previous configuration file if the admin password has been inadvertently changed or an invalid config has been loaded.
